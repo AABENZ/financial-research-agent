@@ -1,0 +1,37 @@
+# Hugging Face Spaces optimized requirements
+# Lighter version without dev dependencies
+
+# Core
+python-dotenv==1.0.0
+pydantic==2.5.0
+
+# ML/NLP - Use CPU-only versions for HF Spaces
+torch==2.1.0
+transformers==4.36.0
+numpy==1.24.3
+pandas==2.1.4
+
+# Explainability
+lime==0.2.0.1
+
+# SEC Data
+sec-edgar-downloader==5.0.2
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# Market Data
+yfinance>=0.2.40  # Updated for better API compatibility
+newsapi-python==0.2.7
+
+# Web Interface
+gradio>=5.0.0
+
+# Async
+aiohttp==3.9.1
+
+# Utilities
+requests==2.31.0
+python-dateutil==2.8.2
+
+# Gemini API
+google-generativeai>=0.3.0
